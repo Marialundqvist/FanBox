@@ -1,0 +1,450 @@
+body {/* ---styr hela sidan ---*/
+	width: 100%;
+	background-color: white;
+}
+
+
+#container{ /* --- styr hela difan och gör att det orangea/sidan hoppa i marginal så det e en vit kant utanför---*/
+	width: 85%;
+	margin-left: 7.5%;
+}
+	
+	
+.menu2 {
+	list-style-type: none;
+}
+
+
+.ikoner  /* --- de två ikoner/symboler som är dolda och syns inte. ligger längst upp på sidan---*/{
+	display: none;
+	margin-left: 15%;
+	width: auto;
+	height: 30px;
+}
+
+
+#ikoner { /* --- de två ikoner/symboler som är dolda och syns inte. ligger längst upp på sidan---*/
+	margin-top: -17%;
+	margin-left: 80%;
+}
+
+
+#header { /* --- styr loggan---*/
+	width: 100%;
+	background: -webkit-linear-gradient(#FCDD9B, #FFFFFF); 
+	background: -o-linear-gradient(#FCDD9B, #FFFFFF); 
+	background: -moz-linear-gradient(#FCDD9B, #FFFFFF); 
+	background: linear-gradient(#FCDD9B, #FFFFFF); 
+	border-radius: 20px 4px 0px 0px;
+	
+}
+
+
+#login {
+	position: relative;
+	margin-left: 75%;
+}
+
+
+#login a {
+	color: Black;
+	padding-left: 13%;
+	padding-right: 1%;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+#login a:hover {
+	color: darkblue;
+	text-decoration: underline;
+	padding-left: 13%;
+	font-family: 'Oswald', sans-serif;
+}
+
+#loggain {
+	position: absolute;
+	margin-left: 69%;
+	background: -webkit-linear-gradient(#FFFFFF, #FCDD9B);  
+	background: -o-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: -moz-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: linear-gradient(#FFFFFF, #FCDD9B); 
+	padding: 0.5%;
+	border-radius: 0px 0px 20px 20px;
+	border-top: none;
+	border-right: 2px;
+	border-bottom: 2px;
+	border-right: 2px;	
+    border-style: outset;
+	border-color: #FCDD9B;
+		margin-top: 1.7%;
+	z-index:13;
+}
+
+
+form {
+	font-family: 'Oswald', sans-serif;
+	border: 2px sold black;
+}
+
+
+.hide{
+	display: none;
+}
+
+
+#logga{
+	position: relative;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.hej {
+	display: none;
+}
+
+
+#kategorier{
+	width: 100%;
+	position: relative;
+	background: -webkit-linear-gradient(#FFFFFF, #FCDD9B);  
+	background: -o-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: -moz-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: linear-gradient(#FFFFFF, #FCDD9B); 
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 0px 0px 20px 4px;	
+}
+
+
+#kategorier img{
+	width: 15%;
+}
+
+
+.pic {
+	position: relative;
+	z-index: 1;
+	border-radius: 25px 5px 25px 5px;
+	box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.3);
+	border: 2px solid black;
+	width: 17%;
+}
+
+.pil {
+	position: absolute;
+	margin-top: 2%;
+	z-index: 10;
+}
+
+
+.hover {
+	opacity: 0.9;
+}
+
+
+#footer {
+	width: 100%;
+	background-image: url("footer.gif");
+	background-color: white;
+	border-top: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+	margin-top: 10px;
+	position: relative;
+	text-decoration: none;
+}
+
+
+#footer img {
+	width: 10%;
+	
+	margin-left: 72%;
+}
+
+
+.tit {
+	font-family: 'Bangers', cursive;
+	width: 100%;
+	line-height: 4%;
+	padding: 25px 25px;
+	font-size: 180%;
+}
+
+
+.tit:hover {
+	padding: 25px 25px;
+	line-height: 4%;
+	text-decoration: underline;
+}
+
+
+
+
+.tit2 {
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+nav {
+	position: relative;
+	margin-left: 33%;
+	margin-top: 10%;
+	z-index: 8;
+}
+
+
+
+ul{
+	list-style-type: none;
+	font-family: 'Oswald', 'sans-serif';
+}
+
+
+nav ul ul {
+	display: none;
+}
+
+
+nav ul li:hover > ul {
+	display: block;
+}
+	
+
+nav ul ul {
+	display: none;
+}
+
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+
+nav ul {
+	word-spacing: 1.5px;
+	width: 100%;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+	
+	
+nav ul li {
+	float: left;
+	position: relatvie;
+	z-index: 5;
+	padding: none;
+}
+
+
+nav ul li:hover {
+	color: green;
+}
+
+
+nav ul li:hover a {
+	color: black;
+}
+
+	
+nav ul li a {
+	display: block; padding: 25px 25px;
+	color: black; text-decoration: none;
+	font-family: 'Bangers', cursive;		
+}
+
+	
+nav ul ul {
+	border-radius: 5px; padding: 0;
+	position: absolute; width: 25%;
+}
+
+
+nav ul ul li {
+	float: none; 
+	background: -webkit-linear-gradient(#FCDD9B, #FFFFFF); 
+	background: -o-linear-gradient(#FCDD9B, #FFFFFF); 
+	background: -moz-linear-gradient(#FCDD9B, #FFFFFF); 
+	background: linear-gradient(#FFFFFF, #FCDD9B); 
+	width: 70%;
+	font-size: 150%;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	position: relative;
+}
+
+
+nav ul ul li a {
+	padding: 1% 3%;		
+}
+
+	
+nav ul ul li a:hover {
+	background-color: #FACC6A;
+	text-decoration: underline;
+	background-color: #FCDD9B;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+h1 {
+	font-weight: bold;
+	font-family: 'Oswald';
+	margin-left: 5%;
+}
+
+
+h2 {
+	font-family: 'Oswald';
+	margin-left: 5%;
+}
+
+
+h3 {
+	margin-left: 5%;
+}
+
+
+p {
+	font-family: 'Oswald', sans-serif;
+	margin-left: 5%;
+}
+
+
+#leverans {
+	margin-left: 72%;
+	margin-top: 10%;
+	position: relative;
+}
+
+
+#vararmittpaket {
+	margin-right: 22%;
+	margin-top: 10%;
+	position: relative;
+}
+
+
+.kundvagn {
+	width: 7%;
+}
+#kundkorg {
+width: 150%;
+
+}
+
+#anvandarvillkor { /* Styling till användarvillkorsidan */
+	width:70%;
+}
+
+
+#harnimottagitminretur img { 
+	margin-top: -13%;
+	margin-left: 82%; 
+	width: 10%; 
+}
+
+
+.leverans { 
+	padding-left:30%;
+	margin-left: 30%;
+	position: relative;
+} 
+
+
+.vararmittpaket {
+	margin-left: 12%; 
+	margin-top: -12.5%; 
+	position: relative; 
+} 
+
+
+.om { 
+	position: relative;
+}
+
+
+#content{ 
+	width: 100%;
+		
+		margin-top: 2%;
+	position: relative;
+	background: -webkit-linear-gradient(#FFFFFF, #FCDD9B);
+	background: -o-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: -moz-linear-gradient(#FFFFFF, #FCDD9B);
+	background: linear-gradient(#FFFFFF, #FCDD9B); 
+	padding-top: 2%; 
+	/*padding-bottom: 30%; */
+	border-radius: 20px 4px 20px 4px; 
+	padding-left: 5%;	
+} 
+
+#content img{
+	width: 60%;	
+	margin-left: 20%;
+	margin-right: relative;	
+}
+
+#content_details{ 
+	width: 100%;
+		
+		margin-top: 2%;
+	position: relative;
+	background: -webkit-linear-gradient(#FFFFFF, #FCDD9B);
+	background: -o-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: -moz-linear-gradient(#FFFFFF, #FCDD9B);
+	background: linear-gradient(#FFFFFF, #FCDD9B); 
+	padding-top: 2%; 
+	padding-bottom: 35%;
+	border-radius: 20px 4px 20px 4px; 
+	padding-left: 5%;	
+} 
+
+.products {
+	width: 5%;
+
+
+}
+
+.thumbnail{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+
+#hurfunkar{ 
+width: 100%; 
+position: relative;  
+padding-top: 2%; 
+padding-bottom: 2%; 
+border-radius: 20px 20px 20px 20px; 
+margin-top: 2%; 
+border: 7px solid black;
+} 
+
+
+
+
+#fungerar { 
+width: 60%; 
+margin-left: 20%; 
+margin-right: relative; 
+border-radius: 20px 20px 20px 20px; 
+border: none;
+ }
+
+
+.form-group {
+	width: 50%;	
+}

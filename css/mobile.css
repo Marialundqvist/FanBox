@@ -1,0 +1,133 @@
+@media screen and (max-width: 540px) and (min-width: 0px){
+.kundvagn {
+	width: 10%;
+	
+
+}
+#container {
+width: 220%;
+
+
+}
+.tit {
+
+font-family: 'Bangers', cursive;
+width: 100%;
+line-height: 4%;
+padding: 25px 25px;
+	font-size: 75%;
+}
+.tit:hover {
+padding: 25px 25px;
+line-height: 4%;
+text-decoration: underline;
+ 
+
+}
+.tit2 {
+border-radius: 0px 0px 20px 20px;
+}
+
+
+nav {
+display: none;
+position: relative;
+
+
+}
+
+
+
+
+
+#login {
+
+position: relative;
+
+margin-left: 40%;
+
+}
+
+#login a {
+font-size: 15%;
+color: Black;
+padding-left: 13%;
+padding-right: 1%;
+font-family: 'Oswald', sans-serif;
+}
+
+#login a:hover {
+color: darkblue;
+text-decoration: underline;
+padding-left: 13%;
+font-family: 'Oswald', sans-serif;
+}
+
+#loggain {
+
+	position: absolute;
+	margin-left: 72%;
+	background: -webkit-linear-gradient(#FFFFFF, #FCDD9B);  
+	background: -o-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: -moz-linear-gradient(#FFFFFF, #FCDD9B); 
+	background: linear-gradient(#FFFFFF, #FCDD9B); 
+	padding: 0.5%;
+	border-radius: 0px 0px 20px 20px;
+	border-top: none;
+	border-right: 2px;
+	border-bottom: 2px;
+	border-right: 2px;	
+    border-style: outset;
+	border-color: #FCDD9B;
+	z-index:30;
+}
+
+#header {
+
+width: 100%;
+margin-top: -13%;
+margin-left: -2%;
+background: white;
+}
+
+form {
+font-family: 'Oswald', sans-serif;
+border: 2px sold black;
+font-size: 15%;
+}
+input[type="text"] {
+    width: 35%;
+
+}
+
+#kategorier {
+
+margin-top: 20%;
+border-radius: 0px;
+margin-left: -5%;
+background: white;
+width: 100%;
+}
+
+#kategorier img {
+width: 40%;
+position: relative;
+border-radius: 0px 0px 35px 35px;
+border: 1px solid black;
+
+}
+#footer ul{
+font-size: 15%;
+margin-left: -15%;
+
+list-style-type: none;
+font-family: 'Oswald', 'sans-serif';
+}
+#logga {
+width: 40%;
+
+}
+#footer {
+margin-left: -5%;
+}
+}
